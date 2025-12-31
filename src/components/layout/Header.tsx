@@ -33,8 +33,23 @@ export default function Header() {
 
                 {/* CTA */}
                 <div>
-                    <a href="https://wa.me/5562981364197" target="_blank" rel="noopener noreferrer" className="btn" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', backgroundColor: '#A3E635 !important', color: '#1f2937', fontWeight: 600 }}>
-                        Cotar Agora
+                    <a
+                        href="https://wa.me/5562981364197"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn"
+                        style={{
+                            padding: '0.6rem 1.5rem',
+                            fontSize: '0.9rem',
+                            backgroundColor: '#A3E635', // Verde Lima sem o !important
+                            color: '#1f2937',
+                            fontWeight: 700,
+                            borderRadius: '12px', // Cantos arredondados como na imagem
+                            textDecoration: 'none',
+                            display: 'inline-block'
+                        }}
+                    >
+                        Cotar grátis
                     </a>
                 </div>
             </div>
