@@ -33,9 +33,9 @@ export default function Header() {
 
                 {/* CTA */}
                 <div>
-                    <button className="btn btn-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
+                    <Link href="https://wa.me/5562981364197" target="_blank" className="btn btn-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
                         Cotar Agora
-                    </button>
+                    </Link>
                 </div>
             </div>
         </header>
