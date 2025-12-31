@@ -33,9 +33,9 @@ export default function Header() {
 
                 {/* CTA */}
                 <div>
-                    <Link href="https://wa.me/5562981364197" target="_blank" className="btn btn-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
+                    <a href="https://wa.me/5562981364197" target="_blank" rel="noopener noreferrer" className="btn" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', backgroundColor: '#A3E635 !important', color: '#1f2937', fontWeight: 600 }}>
                         Cotar Agora
-                    </Link>
+                    </a>
                 </div>
             </div>
         </header>
