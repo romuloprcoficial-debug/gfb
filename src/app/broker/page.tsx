@@ -81,6 +81,11 @@ export default function BrokerPage() {
                                     <span>👥</span> Relação Sócios GFB
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://drive.google.com/file/d/179a_GV6abk5fauA3cjxIJgte_YB2ryGS/view?usp=drive_link" target="_blank" className="btn-link" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-main)', textDecoration: 'none', padding: '0.5rem', borderRadius: '6px', transition: 'background-color 0.2s' }}>
+                                    <span>📄</span> Apólice Vida Sócios
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
