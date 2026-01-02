@@ -68,7 +68,17 @@ export default function VerticalCard({ vertical }: { vertical: Vertical }) {
                             minHeight: '2.5rem',
                             gap: '0.5rem'
                         }}>
-                            {isBradesco ? (
+                            {product.link ? (
+                                <a
+                                    href={product.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', width: '100%', color: 'inherit', textDecoration: 'none' }}
+                                    onClick={(e) => e.stopPropagation()}
+                                >
+                                    <Content />
+                                </a>
+                            ) : isBradesco ? (
                                 <Link
                                     href="/gf-bank/bradesco-consorcio"
                                     style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', width: '100%', color: 'inherit', textDecoration: 'none' }}

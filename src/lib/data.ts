@@ -3,6 +3,7 @@ export type Product = {
     title: string;
     description?: string;
     logo?: string;
+    link?: string;
 };
 
 export type Vertical = {
@@ -48,10 +49,15 @@ export const verticals: Record<string, Vertical> = {
         description: 'Segurança e bem-estar para você e sua família.',
         heroImage: '/images/voce-hero.jpg',
         products: [
-            { id: 'residencial', title: 'Residencial' },
-            { id: 'vida-individual', title: 'Vida Individual' },
-            { id: 'automovel', title: 'Automóvel' },
-            { id: 'rc-pf', title: 'RC (Responsabilidade Civil)' },
+            { id: 'residencial', title: 'Seguro Residencial' },
+            { id: 'vida-individual', title: 'Seguro Vida Individual' },
+            { id: 'automovel', title: 'Seguro Automóvel' },
+            { id: 'rc-pf', title: 'Seguro RC (Responsabilidade Civil)' },
+            {
+                id: 'seguro-moto',
+                title: 'Seguro de Moto',
+                link: 'https://www.corretor-online.com.br/canalcliente/index.htm?Pw=M2JtQkY2bWdLc2NQVHk3cFA4MkRIdz09'
+            },
         ],
     },
     'gf-corporate': {
