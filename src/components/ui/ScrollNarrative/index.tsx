@@ -58,9 +58,23 @@ export default function ScrollNarrative() {
                         ))}
                     </div>
 
-                    <button className="btn btn-primary" style={{ marginTop: '2rem', alignSelf: 'start' }}>
+                    <a
+                        href="https://wa.me/5562981364197"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn"
+                        style={{
+                            marginTop: '2rem',
+                            alignSelf: 'start',
+                            backgroundColor: '#A3E635',
+                            color: '#1f2937',
+                            fontWeight: 700,
+                            borderRadius: '12px',
+                            textDecoration: 'none'
+                        }}
+                    >
                         Garanta Seu Futuro
-                    </button>
+                    </a>
                 </div>
 
                 {/* Images - Display Area */}
