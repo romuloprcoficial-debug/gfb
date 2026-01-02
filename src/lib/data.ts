@@ -49,9 +49,17 @@ export const verticals: Record<string, Vertical> = {
         description: 'Segurança e bem-estar para você e sua família.',
         heroImage: '/images/voce-hero.jpg',
         products: [
-            { id: 'residencial', title: 'Seguro Residencial' },
+            {
+                id: 'residencial',
+                title: 'Seguro Residencial',
+                link: 'https://www.corretor-online.com.br/canalcliente/indexRes.htm?Pw=REZrVTU2dXhoNmd2Z0VFWGtTb0tHZz09'
+            },
             { id: 'vida-individual', title: 'Seguro Vida Individual' },
-            { id: 'automovel', title: 'Seguro Automóvel' },
+            {
+                id: 'automovel',
+                title: 'Seguro Automóvel',
+                link: 'https://www.corretor-online.com.br/canalcliente/index.htm?Pw=bmpPek5uZzdlMzgrUVFTelF4bTFSdz09'
+            },
             { id: 'rc-pf', title: 'Seguro RC (Responsabilidade Civil)' },
             {
                 id: 'seguro-moto',
