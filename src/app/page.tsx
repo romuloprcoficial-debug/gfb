@@ -28,7 +28,7 @@ export default function Home() {
             Na GFB, acreditamos que a verdadeira riqueza não é o que você acumula, mas o que você torna perene. Sabemos que o seu maior medo não é a perda material, mas a interrupção da sua história.
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-            <Link href="https://wa.me/5562981364197" target="_blank" className="btn btn-primary">Fale com um Especialista</Link>
+            <Link href="https://wa.me/5562981364197" target="_blank" className="btn" style={{ backgroundColor: '#A3E635', color: '#1f2937', fontWeight: 700, borderRadius: '12px', border: 'none' }}>Fale com um Especialista</Link>
             <Link href="#verticais" className="btn btn-secondary" style={{ backgroundColor: 'white', border: '1px solid #e2e8f0', color: 'var(--text-main)' }}>
               Ver Nossas Soluções
             </Link>
